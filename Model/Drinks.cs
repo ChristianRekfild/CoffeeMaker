@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeMaker.Model
 {
-    public class Drinks
+    public class Drinks : BaseEntity
     {
         [StringLength(100)]
         /// <summary>
